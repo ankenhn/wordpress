@@ -11,3 +11,30 @@
 </head>
 
 <body <?php body_class(); ?>>
+<nav class="top-nav">
+    <div class="inner">
+        <?php wp_nav_menu( array( 'theme_location'  =>  'top-menu',
+                                    'menu'          =>  'Top Navigation',
+                                    'menu_class'    =>  'top-menu',
+                                    'menu_id'       =>  '',
+            ) ); ?>
+        <div class="top-search-form">
+
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="inner">
+        Banner Here
+    </div>
+    <div id="header-menu" class="inner">
+        <?php wp_nav_menu( array( 'theme_location'  =>  'header-menu',
+            'menu'          =>  'Header Menu',
+            'menu_class'    =>  'header-menu',
+            'menu_id'       =>  '',
+        ) ); ?>
+    </div>
+
+
+</header>

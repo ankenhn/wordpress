@@ -14,3 +14,24 @@ This theme, like Monster, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+.inner {
+    max-width:1240px;
+    margin:auto;
+    padding:0px 20px;
+}
+.top-nav {
+    background: #222222;
+    color: #999999;
+    line-height:40px;
+}
+.top-menu {
+    margin:0px;
+    padding:0px;
+}
+.top-menu li {
+    display: inline;
+}
+.top-menu li a {
+    color:#999999;
+    padding:0px 4px;
+}
