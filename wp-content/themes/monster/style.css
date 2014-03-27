@@ -35,3 +35,27 @@ Use it to make something cool, have fun, and share what you've learned with othe
     color:#999999;
     padding:0px 4px;
 }
+
+#header-menu .inner {
+    border-bottom:3px solid #DDDDDD;
+    border-top:1px solid #DDDDDD;
+    padding:0px;
+}
+#header-menu ul {
+    margin:0px;
+    padding:0px;
+}
+#header-menu li {
+    display: inline;
+    text-transform: uppercase;
+}
+#header-menu li a {
+    color:#000000;
+    padding:0px 10px;
+    display: inline-block;
+    line-height: 46px;
+}
+#header-menu li a:hover {
+    color:#FFFFFF;
+    background:#000000;
+}

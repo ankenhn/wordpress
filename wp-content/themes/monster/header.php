@@ -3,7 +3,7 @@
 <!--<![endif]-->
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -25,16 +25,24 @@
 </nav>
 
 <header>
-    <div class="inner">
-        Banner Here
+    <div class="inner row">
+        <div class="col-xs-12 col-sm-3">Banner Here</div>
+        <div class="col-xs-12 col-sm-9 hidden-xs">Adv</div>
     </div>
-    <div id="header-menu" class="inner">
-        <?php wp_nav_menu( array( 'theme_location'  =>  'header-menu',
-            'menu'          =>  'Header Menu',
-            'menu_class'    =>  'header-menu',
-            'menu_id'       =>  '',
-        ) ); ?>
-    </div>
-
-
+    <nav id="header-menu">
+        <div class="inner">
+            <a class="click-to-open-menu visible-xs">O</a>
+            <?php wp_nav_menu( array( 'theme_location'  =>  'header-menu',
+                'menu'          =>  'Header Menu',
+                'menu_class'    =>  'header-menu',
+                'menu_id'       =>  '',
+            ) ); ?>
+        </div>
+    </nav>
 </header>
+
+<div id="content">
+    <div class="inner">
+
+    </div>
+</div>
