@@ -26,8 +26,13 @@
 
 <header>
     <div class="inner row">
-        <div class="col-xs-12 col-sm-3">Banner Here</div>
-        <div class="col-xs-12 col-sm-9 hidden-xs">Adv</div>
+        <div class="col-sm-12 col-md-3 col">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" />
+        </div>
+        <div class="col-sm-12 col-md-9 hidden-xs col">
+            <div class="right"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ad-728x90.jpg" /></div>
+        </div>
+
     </div>
     <nav id="header-menu">
         <div class="inner">
@@ -40,9 +45,3 @@
         </div>
     </nav>
 </header>
-
-<div id="content">
-    <div class="inner">
-
-    </div>
-</div>

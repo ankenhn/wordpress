@@ -13,11 +13,19 @@ Text Domain: Monster
 This theme, like Monster, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-
+.noPadding {
+    padding:0px
+}
+.row {
+    margin:0px;
+}
 .inner {
     max-width:1240px;
     margin:auto;
     padding:0px 20px;
+}
+.right {
+    float:right;
 }
 .top-nav {
     background: #222222;
@@ -40,6 +48,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
     border-bottom:3px solid #DDDDDD;
     border-top:1px solid #DDDDDD;
     padding:0px;
+    max-width:1200px;
+}
+header .inner {
+    margin-top:10px;
+    margin-bottom:10px;
 }
 #header-menu ul {
     margin:0px;
@@ -58,4 +71,80 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #header-menu li a:hover {
     color:#FFFFFF;
     background:#000000;
+}
+
+
+/** RECENT POSTS **/
+.recent_posts ul {
+    margin:0px;
+    padding:0px;
+}
+.recent_posts ul li.box {
+    position: relative;
+}
+.recent_posts ul li.box .list-post-categories {
+    position: absolute;
+    bottom:5px;
+    left:5px;
+}
+
+.recent_posts ul li.box .list-post-categories li {
+    display: inline-block;
+}
+.recent_posts ul li.box .list-post-categories li a {
+    font-size:11px;
+    padding:0px 4px;
+    line-height:18px;
+    background: #000000;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    display: inline-block;
+}
+
+
+/** CATEGORY BLOCK **/
+.category-block-1 .category-title {
+    background:#00AEEF;
+}
+.category-block-2 .category-title {
+    background:#C0392B;
+}
+.category-block-3 .category-title {
+    background:#F39C12;
+}
+.category-block .category-title {
+    line-height:30px;
+    color:#FFFFFF;
+    position: relative;
+}
+.category-block .category-title h6 {
+    line-height:30px;
+    padding-left:15px;
+    text-transform: uppercase;
+}
+
+.category-block .category-title a {
+    position: absolute;
+    right:15px;
+    top:0px;
+}
+.category-block .post-meta {
+    margin:0px;
+    padding:0px;
+}
+.category-block .post-meta li {
+    display: inline;
+    text-transform: uppercase;
+}
+.wp-post-image {
+    max-width: 100%;
+    height: auto !important;
+}
+.news-items {
+    margin-top:10px;
+}
+.news-items h2 {
+    margin:0px;
+    font-size:24px;
 }
